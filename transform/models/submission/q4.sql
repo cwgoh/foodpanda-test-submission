@@ -4,7 +4,7 @@
     )
 }}
 
-WITH top_vendors AS (
+WITH top2_vendors AS (
 SELECT
   year,
   v.country_name,
