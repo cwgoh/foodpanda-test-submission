@@ -1,0 +1,15 @@
+models:
+  - name: top2_vendors
+    description: >
+      Answer to Q4 of take home test
+    meta:
+      owner: cwgoh28200@gmail.com
+    columns:
+      - year
+        description: Year of the associated record.
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of the top vendor.
+      - total_gmv
+        description: GMV calculated for each vendor.
