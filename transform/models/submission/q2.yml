@@ -6,7 +6,7 @@ models:
       owner: cwgoh28200@gmail.com
     columns:
       - vendor_name
-        description: Name of country.
+        description: Name of vendor.
       - customer_count
         description: Total number of customers for each vendor.
       - total_gmv
