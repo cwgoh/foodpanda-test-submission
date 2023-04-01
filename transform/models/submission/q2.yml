@@ -6,8 +6,17 @@ models:
       owner: cwgoh28200@gmail.com
     columns:
       - vendor_name
-        description: Name of vendor.
+        description: Name of vendor. Primary key.
+        tests:
+          - unique
+          - not_null
+          
       - customer_count
         description: Total number of customers for each vendor.
+        tests:
+          - not_null
+          
       - total_gmv
         description: GMV calculated for each vendor.
+        tests:
+          - not_null
