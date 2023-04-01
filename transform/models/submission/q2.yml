@@ -1,0 +1,13 @@
+models:
+  - name: top_vendor_taiwan
+    description: >
+      Answer to Q2 of take home test
+    meta:
+      owner: cwgoh28200@gmail.com
+    columns:
+      - vendor_name
+        description: Name of country.
+      - customer_count
+        description: Total number of customers for each vendor.
+      - total_gmv
+        description: GMV calculated for each vendor.
