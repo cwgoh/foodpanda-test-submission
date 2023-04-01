@@ -6,6 +6,12 @@ models:
       owner: cwgoh28200@gmail.com
     columns:
       - country_name
-        description: Name of country.
+        description: Name of country. Primary key.
+        tests:
+          - unique
+          - not_null
+          
       - total_gmv
         description: GMV calculated for each country.
+        tests:
+          - not_null
